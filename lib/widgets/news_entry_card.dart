@@ -46,7 +46,7 @@ class NewsEntryCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
 
-                // Title
+                // Title text
                 Text(
                   news.title,
                   style: const TextStyle(
@@ -56,7 +56,7 @@ class NewsEntryCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 6),
 
-                // Category
+                // Category 
                 Text('Category: ${news.category}'),
                 const SizedBox(height: 6),
 
